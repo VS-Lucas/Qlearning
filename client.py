@@ -85,4 +85,4 @@ if __name__ == '__main__':
                 write_table(matrix) # Atualização da Q-table
             
             # Escolha entre uma constante (0.01) e o decaimento exponencial de exploration_prob, a fim de setar um limite inferior
-            exploration_prob = max(min_exploration_prob, np.exp(-exploration_decreasing_decay * e))
+            exploration_prob = max(min_exploration_prob, np.exp(-exploration_decreasing_decay * e))           
